@@ -24,6 +24,7 @@ public class TestIterablePlain {
 
         IterableWithPolicy<String> emptyIterable = getIterableWithPolicy(test2);
         assertContentEqualsInOrder(emptyIterable, List.of());
+        System.out.print("Prova1"); //print creato
 
         String[] test3 = { "foo" };
 
